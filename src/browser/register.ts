@@ -1,9 +1,6 @@
-
 export async function registerServiceWorker(): Promise<void> {
   try {
-    await navigator.serviceWorker.register("", {
-      scope: "/"
-    })
+    console.log("register service worker")
   } catch (error) {
     console.error(`[Service Worker] registration`, error)
   }
