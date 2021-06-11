@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "es2015",
+    "module": "es2015",
     "moduleResolution": "node",
     "strict": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "./out",
-    "declaration": true,
+    "declaration": false,
     "experimentalDecorators": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
